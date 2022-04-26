@@ -1,4 +1,4 @@
-package Adv_HW_92;
+package Adv_HW_921;
 
 public class Worker extends Employee{
     public Worker (double baseSalary, String name){

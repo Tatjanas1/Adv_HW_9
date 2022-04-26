@@ -1,8 +1,6 @@
-package Adv_HW_92;
+package Adv_HW_921;
 
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class DirectorTest {
 

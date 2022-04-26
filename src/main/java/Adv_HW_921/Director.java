@@ -1,4 +1,4 @@
-package Adv_HW_92;
+package Adv_HW_921;
 
 public class Director extends Employee {
     private final int DIRECTOR_INDEX = 9;
