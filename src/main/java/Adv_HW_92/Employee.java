@@ -3,7 +3,6 @@ package Adv_HW_92;
     public abstract class Employee {
         private double baseSalary;
         private String name;
-        private double salary;
 
         public Employee(double baseSalary, String name) {
             this.baseSalary = baseSalary;
