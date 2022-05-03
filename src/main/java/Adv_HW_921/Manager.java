@@ -1,28 +1,18 @@
 package Adv_HW_921;
 
-public class Manager extends Employee{
-    private int numberOfSubordinates;
-    private final int MANAGER_INDEX = 3;
+public final class Manager extends BaseManager{
+
+    private static final int MANAGER_INDEX = 3;
 
     public Manager(double baseSalary, String name, int numberOfSubordinates) {
-        super(baseSalary, name);
-        this.numberOfSubordinates = numberOfSubordinates;
+        super(baseSalary, name, numberOfSubordinates);
     }
-
-    public int getNumberOfSubordinates() {
-        return numberOfSubordinates;
-    }
-
-    public void setNumberOfSubordinates(int numberOfSubordinates) {
-        this.numberOfSubordinates = numberOfSubordinates;
-    }
-
 
 
     @Override
     public double getSalary() {
         double salary;
-        if (numberOfSubordinates > 0){
+        if (getNumberOfSubordinates()> 0){
             salary = getBaseSalary() * (getNumberOfSubordinates() / 10.0 * MANAGER_INDEX);
         } else {
             salary = getBaseSalary();
