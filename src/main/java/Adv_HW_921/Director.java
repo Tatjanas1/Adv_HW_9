@@ -8,15 +8,8 @@ public final class Director extends BaseManager {
         super(baseSalary, name, numberOfSubordinates);
     }
 
-
     @Override
-    public double getSalary() {
-        double salary = 0;
-        if (getNumberOfSubordinates() > 0){
-            salary = getBaseSalary() * (getNumberOfSubordinates() / 10.0 * DIRECTOR_INDEX);
-        } else {
-            salary = getBaseSalary();
-        }
-        return salary;
+    public int getIndex() {
+        return DIRECTOR_INDEX;
     }
 }
