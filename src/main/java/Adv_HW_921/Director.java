@@ -9,7 +9,7 @@ public final class Director extends BaseManager {
     }
 
     @Override
-    public int getIndex() {
+    protected int getIndex() {
         return DIRECTOR_INDEX;
     }
 }

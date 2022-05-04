@@ -8,7 +8,7 @@ public final class Manager extends BaseManager{
         super(baseSalary, name, numberOfSubordinates);
     }
     @Override
-    public int getIndex() {
+    protected int getIndex() {
         return MANAGER_INDEX;
     }
 }
