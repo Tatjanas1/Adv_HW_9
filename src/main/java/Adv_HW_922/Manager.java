@@ -1,15 +1,15 @@
 package Adv_HW_922;
 
 public final class Manager extends BaseEmployee {
+
+    private int subOrdination;
+
     public int getSubOrdination() {
         return subOrdination;
     }
-
     public void setSubOrdination(int subOrdination) {
         this.subOrdination = subOrdination;
     }
-
-    private int subOrdination;
 
     public Manager(String name, int age, char gender, double daySalary, int subOrdination) {
         super(name, age, gender, daySalary);
@@ -18,11 +18,11 @@ public final class Manager extends BaseEmployee {
 
     @Override
     public double getSalary(Month[] monthArray){
-        double salary = 0;
-        for (int i = 0; i < monthArray.length; i++){
-            salary += getDaySalary() * 0.1 / 100 * getSubOrdination() * monthArray[i].getMonthWorkDays();
+        if (subOrdination > 0) {
+            return super.getSalary(monthArray) + (subOrdination /100 * super.getSalary(monthArray));
+        } else {
+            return super.getSalary(monthArray);
         }
-        return salary + super.getSalary(monthArray);
     }
 
 }
