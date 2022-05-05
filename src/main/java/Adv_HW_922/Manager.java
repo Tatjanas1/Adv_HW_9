@@ -23,6 +23,8 @@ public final class Manager extends BaseEmployee {
         } else {
             return super.getSalary(monthArray);
         }
+
+
     }
 
 }
