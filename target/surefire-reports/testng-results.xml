@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-25T13:41:22 MSK" name="Command line suite" finished-at="2022-05-25T13:41:22 MSK" duration-ms="24">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T13:41:22 MSK" name="Command line test" finished-at="2022-05-25T13:41:22 MSK" duration-ms="24">
+      <class name="Adv_HW_91Test">
+        <test-method signature="testAbbriv()[pri:0, instance:Adv_HW_91Test@7ce6a65d]" started-at="2022-05-25T13:41:22 MSK" name="testAbbriv" finished-at="2022-05-25T13:41:22 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbbriv -->
+        <test-method signature="testAbbriv2()[pri:0, instance:Adv_HW_91Test@7ce6a65d]" started-at="2022-05-25T13:41:22 MSK" name="testAbbriv2" finished-at="2022-05-25T13:41:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbbriv2 -->
+      </class> <!-- Adv_HW_91Test -->
+      <class name="Adv_HW_921.DirectorTest">
+        <test-method signature="testGetSalary()[pri:0, instance:Adv_HW_921.DirectorTest@6b57696f]" started-at="2022-05-25T13:41:22 MSK" name="testGetSalary" finished-at="2022-05-25T13:41:22 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSalary -->
+      </class> <!-- Adv_HW_921.DirectorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
